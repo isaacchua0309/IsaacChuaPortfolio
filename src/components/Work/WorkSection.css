@@ -1,0 +1,73 @@
+/* src/components/WorkSection.css */
+.WorkSection {
+  padding: 2rem;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+.work-intro-featured {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.work-description {
+  flex: 1;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.WorkSection p {
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.Filter {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.Filter span {
+  margin-right: 1rem;
+}
+
+.Filter a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.ProjectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.ProjectItem {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(33.33% - 1rem); /* Adjust width to fit three items per row */
+  max-width: 300px;
+  text-align: left;
+}
+
+.ProjectItem img {
+  width: 100%;
+  height: auto;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-info h3 {
+  margin: 0;
+}
+
+.project-info p {
+  color: #bbb;
+}

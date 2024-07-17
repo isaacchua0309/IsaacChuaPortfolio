@@ -1,0 +1,28 @@
+/* src/components/ContactSection.css */
+.ContactSection {
+    padding: 2rem;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .contact-testimonials-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem; /* Adjust gap as needed */
+  }
+  
+  .Contact {
+    flex: 1;
+    padding: 2rem;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .Testimonials {
+    flex: 1.5;
+    padding: 2rem;
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  

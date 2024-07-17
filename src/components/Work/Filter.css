@@ -1,0 +1,15 @@
+/* src/components/Filter.css */
+.Filter {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.Filter span {
+  margin-right: 1rem;
+}
+
+.Filter a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}

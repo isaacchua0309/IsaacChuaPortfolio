@@ -1,0 +1,15 @@
+/* src/components/ExpertiseSection.css */
+.ExpertiseSection {
+    padding: 2rem;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .expertise-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  

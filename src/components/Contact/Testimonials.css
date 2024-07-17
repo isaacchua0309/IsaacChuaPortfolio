@@ -1,0 +1,23 @@
+/* src/components/Testimonials.css */
+.Testimonials {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.testimonial {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.testimonial blockquote {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 1rem;
+  color: #bbb;
+}

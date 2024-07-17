@@ -1,0 +1,28 @@
+/* src/components/FloatingNav.css */
+.FloatingNav {
+    display: flex;
+    justify-content: center; /* Center the navbar horizontally */
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%; /* Ensure it takes up the full width */
+    position: absolute; /* Initially, it's positioned absolutely */
+    top: -100px; /* Start off-screen */
+    transition: top 0.3s ease-in-out;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .FloatingNav.scrolled {
+    position: fixed; /* Change to fixed position when scrolled */
+    top: 0; /* Move to the top of the screen */
+  }
+  
+  .FloatingNav .nav-items {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .FloatingNav .logo {
+    color: #00f;
+  }
+  

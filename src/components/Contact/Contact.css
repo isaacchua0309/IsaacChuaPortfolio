@@ -1,0 +1,16 @@
+/* src/components/Contact.css */
+.Contact {
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+.Contact a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.contact-methods a {
+  display: block; /* Adjust as needed for alignment */
+  margin: 0.5rem 0;
+}

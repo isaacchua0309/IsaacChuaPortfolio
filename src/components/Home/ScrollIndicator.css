@@ -1,0 +1,8 @@
+/* src/components/ScrollIndicator.css */
+.ScrollIndicator {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
